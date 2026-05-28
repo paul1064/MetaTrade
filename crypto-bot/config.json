@@ -1,0 +1,24 @@
+{
+  "ethereum": {
+    "rpc_url": "https://eth.llamarpc.com",
+    "usdc_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "uniswap_v3_router": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+    "chain_id": 1
+  },
+  "solana": {
+    "rpc_url": "https://api.mainnet-beta.solana.com",
+    "usdc_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "jupiter_api": "https://quote-api.jup.ag/v6"
+  },
+  "strategy": {
+    "total_usdc_units": 8,
+    "max_positions": 8,
+    "take_profit_percent": 150,
+    "stop_loss_percent": 40,
+    "tp_partial_exit_percent": 50,
+    "token_max_age_hours": 24,
+    "min_liquidity_usd": 50000,
+    "min_volume_24h_usd": 100000,
+    "skip_age_check": false
+  }
+}
